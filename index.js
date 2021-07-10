@@ -6,7 +6,7 @@ const app = express()
 
 
 app.get('/',(req,res)=>{
-    res.send('<h1>Welcome to my youtube channel!!</h1>')
+    res.send('<center><h1>Welcome to my youtube channel!!</h1></center>')
 })
 
 app.listen(port,()=>{
